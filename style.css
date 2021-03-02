@@ -19,9 +19,9 @@ html{
 }
 
 body{
-    background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
-    background-position: 150px 250px,-750px -600px;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
+    background-position: right 35vw bottom 50vh, left 35vw top 50vh;
 
     height:100%;
     background-color: var(--darkcyan);
@@ -42,7 +42,7 @@ body{
     background-size: cover;
     border-radius:20px;
     overflow: hidden;
-     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 
 }
 
@@ -128,11 +128,11 @@ body{
 
 
 @media only screen and (min-width:1000px){
-    body{
-        background-position: 650px 450px,-300px -450px;
-        background-repeat: no-repeat;
+ 
+    body {
+        background-position: right 50vw bottom 40vh, left 50vw top 50vh;
     }
-    
+
     .card{
     min-width:350px;
     }
